@@ -32,7 +32,7 @@ jobs:
       - name: Install dependencies
         working-directory: starter/backend
         run: |
-          pip install pipenv
+          pip install "pipenv==2023.2.18"
           pipenv install --dev
 
       - name: Run linting
@@ -62,7 +62,7 @@ jobs:
       - name: Install dependencies
         working-directory: starter/backend
         run: |
-          pip install pipenv
+          pip install "pipenv==2023.2.18"
           pipenv install --dev
 
       - name: Run tests
